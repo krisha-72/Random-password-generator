@@ -1,5 +1,5 @@
 {
-    "name":"kushal/random-password-gen",
+    "name":"kushal-sharma/random-password-gen",
     "description": "Package for Random Password Generator",
     "license":"MIT",
     "autoload": {
@@ -14,7 +14,7 @@
     },
     "authors": [
     {
-      "name": "kushal",
+      "name": "kushal-sharma",
       "email": "kushalcoders@gmail.com"
     }
   ],
