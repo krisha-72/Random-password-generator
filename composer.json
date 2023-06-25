@@ -1,0 +1,28 @@
+{
+    "name":"kushal/random-password-gen",
+    "description": "Package for Random Password Generator",
+    "license":"MIT",
+    "autoload": {
+    "psr-4": {
+        "PasswordGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "PasswordGenerator\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+    {
+      "name": "kushal",
+      "email": "kushalcoders@gmail.com"
+    }
+  ],
+  "scripts": {
+    "pf": "./vendor/bin/phpunit --filter ",
+    "test": "./vendor/bin/phpunit"
+  },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
