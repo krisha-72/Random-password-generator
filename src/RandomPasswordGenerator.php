@@ -29,7 +29,7 @@ class RandomPasswordGenerator
     }
 }
 
-$passwordGenerator= new RandomPasswordGenerator();
-$generatedPassword = $passwordGenerator->generateStrongPassword();
+// $passwordGenerator= new RandomPasswordGenerator();
+// $generatedPassword = $passwordGenerator->generateStrongPassword();
 
-var_dump($generatedPassword);
+// var_dump($generatedPassword);
